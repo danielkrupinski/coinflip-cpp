@@ -16,7 +16,7 @@ void generate(data& Data)
 	srand(time(NULL));
 	for (int i=0; i!=Data.amount; ++i)
 	{
-		Data.random.push_back(rand());
+		rand() % 2 == 0 ? Data.random.push_back(0) : Data.random.push_back(1);
 		if (Data.random[i] % 2 == 0)
 			++Data.heads;
 	}
@@ -28,7 +28,9 @@ void results(data& Data)
 	remove("results.txt");
 	ofstream file;
 	file.open("results.txt");
-	file << "test save" << endl;
+	file << "0 - heads, 1 - tails\n\v";
+	for (int i=0; i!=Data.random.size(); ++i)
+		file << Data.random[i] << endl;
 	file.close();
 	system("clear");
 	cout << "Results have been saved in [filename]"; // filestream will be added
