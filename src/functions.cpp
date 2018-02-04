@@ -25,10 +25,10 @@ void generate(data& Data)
 
 void results(data& Data)
 {
+	remove("results.txt");
 	ofstream file;
-	//string name {"results_"+rand()};
-	file.open("results");
-	file << "Test save" << endl;
+	file.open("results.txt");
+	file << "test save" << endl;
 	file.close();
 	system("clear");
 	cout << "Results have been saved in [filename]"; // filestream will be added
