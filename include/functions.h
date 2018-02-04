@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <fstream>
 
 struct data {int amount {}, heads {}; std::vector<int> random {};};
 
