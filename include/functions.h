@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
 
-struct data {int amount {}, mode {}, heads {}; std::vector<int> random {};};
+struct data {int amount {}, heads {}; std::vector<int> random {};};
 
 data setup();
 
-void generate(data& Data);
+void generate(data&);
 
-void results(data& Data);
+void results(data&);
 
