@@ -32,7 +32,6 @@ void results(data& Data)
 	for (int i=0; i!=Data.random.size(); ++i)
 		file << Data.random[i] << endl;
 	file.close();
-	system("clear");
-	cout << "Results have been saved in [filename]"; // filestream will be added
+	cout << "Results have been saved in [filename]";
 }
 
