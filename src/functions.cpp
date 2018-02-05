@@ -31,7 +31,7 @@ void results(data& Data)
 	file << Data.heads << " heads and " << Data.amount-Data.heads << " tails of total " << Data.amount << " flips.\n";
 	file << "0 - heads, 1 - tails\n\n";
 	for (int i=0; i!=Data.random.size(); ++i)
-		file << Data.random[i] << endl;
+		file << Data.random[i] << ',';
 	file.close();
 	cout << "Results have been saved in results.txt file.\n";
 }
