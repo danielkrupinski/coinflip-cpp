@@ -5,7 +5,7 @@ using namespace std;
 data setup()
 {
 	data Data;
-	cout << "Coinflip simulator\n\v";
+	cout << "Coin Flip Simulation\n\v";
 	cout << "Enter amount of flips: ";
 	cin >> Data.amount;
 	return Data;
