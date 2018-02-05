@@ -28,7 +28,7 @@ void results(data& Data)
 	remove("results.txt");
 	ofstream file;
 	file.open("results.txt");
-	file << Data.heads << " heads and " << Data.amount-Data.heads << " tails";
+	file << Data.heads << " heads and " << Data.amount-Data.heads << " tails of total " << Data.amount << " flips.\n";
 	file << "0 - heads, 1 - tails\n\n";
 	for (int i=0; i!=Data.random.size(); ++i)
 		file << Data.random[i] << endl;
