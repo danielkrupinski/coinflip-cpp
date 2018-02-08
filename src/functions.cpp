@@ -16,9 +16,13 @@ void generate(data& Data)
 	srand(time(NULL));
 	for (int i=0; i!=Data.amount; ++i)
 	{
-		rand() % 2 == 0 ? Data.random.push_back(0) : Data.random.push_back(1);
-		if (Data.random[i] % 2 == 0)
+		if (int random {rand()%2})
+			Data.random.push_back(1);
+		else
+		{
+			Data.random.push_back(0);
 			++Data.heads;
+		}
 	}
 
 }
