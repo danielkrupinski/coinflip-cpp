@@ -27,7 +27,7 @@ void generate(data& Data)
 
 }
 
-void results(data& Data)
+void results(const data& Data)
 {
 	remove("results.txt");
 	ofstream file;

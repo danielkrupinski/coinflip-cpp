@@ -8,5 +8,5 @@ data setup();
 
 void generate(data&);
 
-void results(data&);
+void results(const data&);
 
