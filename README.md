@@ -1,2 +1,2 @@
 # coinflip-cpp
-Coin flip simulation program
+Coin flip simulation program.
