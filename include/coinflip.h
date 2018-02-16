@@ -9,4 +9,3 @@ data setup();
 void generate(data&);
 
 void results(const data&);
-
