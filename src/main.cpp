@@ -1,4 +1,4 @@
-#include "../include/functions.h"
+#include "../include/coinflip.h"
 
 using namespace std;
 
