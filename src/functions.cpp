@@ -15,7 +15,6 @@ void generate(data& Data)
 {
     srand(time(NULL));
     for (int i=0; i!=Data.amount; ++i)
-    {
         if (int random {rand()%2})
             Data.random.push_back(1);
         else
@@ -23,8 +22,6 @@ void generate(data& Data)
             Data.random.push_back(0);
             ++Data.heads;
         }
-    }
-
 }
 
 void results(const data& Data)
