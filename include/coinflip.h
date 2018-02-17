@@ -2,7 +2,7 @@
 #include <vector>
 #include <fstream>
 
-struct data {int amount {}, heads {}; std::vector<int> random {};};
+struct data {int amount {}, heads {}; std::vector<int> random;};
 
 data setup();
 
