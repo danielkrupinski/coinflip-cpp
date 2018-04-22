@@ -3,7 +3,7 @@
 #include <fstream>
 
 struct data {
-    int amount {0}
+    int amount {0};
     int heads {0};
     std::vector<int> random;
 };
