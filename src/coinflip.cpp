@@ -4,7 +4,9 @@ using namespace std;
 
 data::data()
 {
-    
+    cout << "Coin Flip Simulation\n\n";
+    cout << "Enter amount of flips: ";
+    cin >> amount;
 }
 
 data setup()
