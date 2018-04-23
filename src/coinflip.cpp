@@ -9,14 +9,16 @@ data::data()
     cin >> amount;
 }
 
-data setup()
-{
-    data Data;
-    cout << "Coin Flip Simulation\n\n";
-    cout << "Enter amount of flips: ";
-    cin >> Data.amount;
-    return Data;
-}
+/*
+ *    data setup()
+ *    {
+ *        data Data;
+ *        cout << "Coin Flip Simulation\n\n";
+ *        cout << "Enter amount of flips: ";
+ *        cin >> Data.amount;
+ *        return Data;
+ *    }
+ */
 
 void generate(data& Data)
 {

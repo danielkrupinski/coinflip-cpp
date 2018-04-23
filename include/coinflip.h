@@ -9,7 +9,9 @@ struct data {
     std::vector<int> random;
 };
 
-data setup();
+/*
+ * data setup();
+ */
 
 void generate(data&);
 
