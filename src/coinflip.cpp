@@ -2,6 +2,11 @@
 
 using namespace std;
 
+data::data()
+{
+    
+}
+
 data setup()
 {
     data Data;
