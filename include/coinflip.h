@@ -2,13 +2,13 @@
 #include <vector>
 #include <fstream>
 
-struct data {
-    data();
+struct Data {
+    Data();
     int amount {0};
     int heads {0};
     std::vector<int> random;
 };
 
-void generate(data&);
+void generate(Data&);
 
-void results(const data&);
+void results(const Data&);

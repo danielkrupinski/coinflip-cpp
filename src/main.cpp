@@ -2,8 +2,8 @@
 
 int main()
 {
-    data Data;
-    generate(Data);
-    results(Data);
+    Data data;
+    generate(data);
+    results(data);
     return 0;
 }
