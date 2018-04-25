@@ -15,8 +15,7 @@ void Data::generate()
     for (int i=0; i!=this->amount; ++i)
         if (int random {rand()%2})
             this->random.push_back(1);
-        else
-        {
+        else {
             this->random.push_back(0);
             ++this->heads;
         }
