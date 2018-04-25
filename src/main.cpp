@@ -3,7 +3,7 @@
 int main()
 {
     Data data;
-    generate(data);
+    data.generate(data);
     results(data);
     return 0;
 }

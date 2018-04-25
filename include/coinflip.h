@@ -7,6 +7,7 @@ struct Data {
     int amount {0};
     int heads {0};
     std::vector<int> random;
+    void generate(Data&);
 };
 
 void generate(Data&);

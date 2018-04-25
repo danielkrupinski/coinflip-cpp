@@ -9,7 +9,7 @@ Data::Data()
     cin >> amount;
 }
 
-void generate(Data& data)
+void Data::generate(Data& data)
 {
     srand(time(NULL));
     for (int i=0; i!=data.amount; ++i)
