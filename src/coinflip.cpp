@@ -12,13 +12,13 @@ Data::Data()
 void Data::generate(Data& data)
 {
     srand(time(NULL));
-    for (int i=0; i!=data.amount; ++i)
+    for (int i=0; i!=this->amount; ++i)
         if (int random {rand()%2})
-            data.random.push_back(1);
+            this->random.push_back(1);
         else
         {
-            data.random.push_back(0);
-            ++data.heads;
+            this->random.push_back(0);
+            ++this->heads;
         }
 }
 
