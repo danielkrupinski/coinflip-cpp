@@ -21,7 +21,7 @@ void Data::generate()
         }
 }
 
-void results(const Data& data)
+void Data::results(const Data& data)
 {
     remove("results.txt");
     ofstream file;

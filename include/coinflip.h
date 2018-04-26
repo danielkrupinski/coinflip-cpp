@@ -8,6 +8,7 @@ struct Data {
     int heads {0};
     std::vector<int> random;
     void generate();
+    void results(const Data&);
 };
 
 void results(const Data&);
