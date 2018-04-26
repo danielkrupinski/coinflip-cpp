@@ -10,6 +10,4 @@ struct Data {
     void generate();
 };
 
-void generate(Data&);
-
 void results(const Data&);
