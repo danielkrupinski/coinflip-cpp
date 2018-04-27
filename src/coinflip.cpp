@@ -26,9 +26,9 @@ void Data::results()
     remove("results.txt");
     ofstream file;
     file.open("results.txt");
-    file << data.heads << " heads and " << data.amount-data.heads << " tails of total " << data.amount << " flips.\n";
+    file << this->heads << " heads and " << this->amount-this->heads << " tails of total " << this->amount << " flips.\n";
     file << "0 - heads, 1 - tails\n\n";
-    for (auto& x : data.random)
+    for (auto& x : this->random)
         file << x << ',';
     file.close();
     cout << "Results have been saved in results.txt file.\n";

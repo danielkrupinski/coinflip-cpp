@@ -4,6 +4,6 @@ int main()
 {
     Data data;
     data.generate();
-    data.results(data);
+    data.results();
     return 0;
 }
