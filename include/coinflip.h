@@ -1,6 +1,4 @@
-#include <iostream>
 #include <vector>
-#include <fstream>
 
 class Data {
 public:
